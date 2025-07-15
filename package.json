@@ -1,6 +1,6 @@
 {
-  "name": "design-tool-landing-page",
-  "version": "0.1.0",
+  "name": "layers-saas-landing-page",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
