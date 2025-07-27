@@ -5,7 +5,7 @@ import { navLinks } from "@/data/linksData";
 
 export default function Navbar() {
    return (
-      <section className="py-4 lg:py-8">
+      <header className="py-4 lg:py-8">
          <div className="container max-w-5xl">
             <div className="grid grid-cols-2 lg:grid-cols-3 border border-white/15 rounded-full p-2 px-4 md:pr-2 items-center">
                <div>
@@ -59,6 +59,6 @@ export default function Navbar() {
                </div>
             </div>
          </div>
-      </section>
+      </header>
    );
 }
