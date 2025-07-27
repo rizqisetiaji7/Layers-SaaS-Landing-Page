@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logoImage from "@/assets/images/logo.svg";
 import Button from "@/components/Button";
-import navLinks from "@/data/navbarData";
+import { navLinks } from "@/data/linksData";
 
 export default function Navbar() {
    return (
