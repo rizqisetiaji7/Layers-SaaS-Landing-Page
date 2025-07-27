@@ -121,16 +121,13 @@ export default function Hero() {
                your creative flow.
             </p>
 
-            <form
-               autoComplete="off"
-               className="flex gap-2 border border-white/15 rounded-full p-2 mt-8 md:max-w-lg mx-auto"
-            >
+            <form className="flex gap-2 border border-white/15 rounded-full p-2 mt-8 md:max-w-lg mx-auto">
                <input
                   type="email"
                   name="email"
                   placeholder="Enter your email"
                   className="bg-transparent px-4 rounded-full md:flex-1 w-full outline-0 border-0 active:bg-transparent focus:bg-transparent visited:bg-transparent"
-                  autoFocus
+                  autoComplete="off"
                />
                <Button
                   type="submit"
